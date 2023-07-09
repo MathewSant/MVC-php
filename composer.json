@@ -1,0 +1,34 @@
+{
+  "name": "robsonvleite/authphp",
+  "description": "Uma simples peça de login para o seu quebra-cabeças, código aberto :)",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br",
+      "role": "Developer",
+      "homepage": "https://fsphp.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "coffeecode/router": "2.0.*",
+    "coffeecode/datalayer": "2.0.*",
+    "coffeecode/optimizer": "2.1.*",
+    "phpmailer/phpmailer": "6.1.4",
+    "league/plates": "*",
+    "league/oauth2-facebook": "^2.0",
+    "league/oauth2-google": "3.0.2",
+    "matthiasmullie/minify": "1.3.61"
+  }
+}
